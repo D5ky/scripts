@@ -10,7 +10,7 @@ end
 # Fibonacci method
 def fibonacci n
   a, b = 0, 1
-  (1..n).each{|_| a, b = b, a + b}
+  n.times {|_| a, b = b, a + b}
   a
 end
 
