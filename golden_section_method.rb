@@ -22,7 +22,7 @@ table = Terminal::Table.new :title => "Golden section method", :headings => ['â„
 	    y1 = y2
 	    y2 = f x2
 	    t.add_row [i += 1, a, b, x1, f(x1)]
-      	t.add_separator
+      	    t.add_separator
 	  else
 	    b = x2
 	    x2 = x1
@@ -30,7 +30,7 @@ table = Terminal::Table.new :title => "Golden section method", :headings => ['â„
 	    y2 = y1
 	    y1 = f x1
 	    t.add_row [i += 1, a, b, x1, f(x1)]
-      	t.add_separator
+      	    t.add_separator
 	  end
 	end
 end
