@@ -1,9 +1,6 @@
-####dichotomy_method.rb
-минимизация функции с помощью метода дихотомии половинного деления)
-####fibonacci_method.rb
-минимизация функции с помощью метода Фибоначчи
-####golden_section_method.rb
-минимизация функции с помощью метода золотого сечения
+*dichotomy_method.rb* минимизация функции с помощью метода дихотомии (половинного деления)
+*fibonacci_method.rb* минимизация функции с помощью метода Фибоначчи
+*golden_section_method.rb* минимизация функции с помощью метода золотого сечения
 
 ####dichotomy_method.rb
 minimization of functions using the method of dichotomy (bisection)
